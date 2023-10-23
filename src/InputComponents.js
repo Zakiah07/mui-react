@@ -24,7 +24,7 @@ const top5Films = [
   { label: "12 Angry Men", year: 1957 },
 ];
 
-const InputComponents = () => {
+function InputComponents() {
   const [value, setValue] = useState(0);
 
   return (
@@ -119,6 +119,6 @@ const InputComponents = () => {
       </div>
     </div>
   );
-};
+}
 
 export default InputComponents;

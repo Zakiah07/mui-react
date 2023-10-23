@@ -5,7 +5,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-const AccordionComp = () => {
+function AccordionComp() {
   return (
     <div>
       <Accordion>
@@ -22,6 +22,6 @@ const AccordionComp = () => {
       </Accordion>
     </div>
   );
-};
+}
 
 export default AccordionComp;
